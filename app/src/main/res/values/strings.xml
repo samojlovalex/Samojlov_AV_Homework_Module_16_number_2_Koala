@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_16_number_2_Koala</string>
+    <!--TODO Menu-->
+    <string name="toolbar_title">Открытый доступ</string>
+    <string name="toolbar_subtitle">Mod. 16 № 2</string>
+    <string name="exit">Exit</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="toast_exit">Приложение закрыто</string>
+
+    <!-- TODO: Start Fragment -->
+    <string name="cameraPermissionBT_Text">Камера</string>
+    <string name="contactPermissionBT_Text">Контакты</string>
+    <string name="permissionLauncherSingle_Toast_else">В разрешении отказано</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Phone Book Item -->
+    <string name="nameTV_Hint">Имя</string>
+    <string name="phoneTV_Hint">номер телефона</string>
+</resources>

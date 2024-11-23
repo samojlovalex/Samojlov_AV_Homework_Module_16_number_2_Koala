@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CameraFragment"
+    android:padding="@dimen/padding"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        app:cardElevation="@dimen/cardElevation"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/photoIV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/photo"
+            android:scaleType="centerInside"></ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
